@@ -69,7 +69,7 @@ module.exports = async (req, res) => {
     return res.end();
   }
 
-  const to   = process.env.CONTACT_TO_EMAIL   || "ctservice20\@yahoo\.com";
+  const to   = process.env.CONTACT_TO_EMAIL   || "ctservice20@yahoo.com";
   const from = process.env.CONTACT_FROM_EMAIL || "Chris's Tree Services <leads@chrisslawnandtreeservices.com>";
 
   const subject = `New lead from chrisslawnandtreeservices.com — ${name}`;
