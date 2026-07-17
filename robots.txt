@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /thank-you/
+
+Sitemap: https://chrisslawnandtreeservices.com/sitemap.xml
